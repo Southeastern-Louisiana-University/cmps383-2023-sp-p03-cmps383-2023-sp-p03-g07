@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #004280;
+    max-height: 100px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.navItems {
+    flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.navbar-logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    margin-left: 75px;
+    text-align: left;
+    color: #fcd34d;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fcd34d;
+}
