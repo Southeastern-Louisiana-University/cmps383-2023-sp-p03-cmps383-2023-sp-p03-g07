@@ -1,38 +1,50 @@
-.App {
+.background {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-image: url(./Materials/entrack_background.png);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #004280;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.App-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  color: #fcd34d;
+}
+
+.Container-box {
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex, inline-block;
+  width: 750px;
+  height: 500px;
+  background: #004280;
+  margin-left: 585px;
+  margin-top: 10%;
+  border-radius: 25px;
+  border-color: #fcd34d;
 }
 
-.App-link {
-  color: #61dafb;
+.Container-navItems {
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navItem {
+  font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 40px;
+  color: #ffffff;
 }

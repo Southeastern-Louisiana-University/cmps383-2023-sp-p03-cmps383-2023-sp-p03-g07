@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  Route,
+  Routes,
+  Navigate
+} from 'react-router-dom';
+import Home from './Pages/Home/Home.js';
+import Rewards from './Pages/Rewards/Rewards.js';
+import Schedule from './Pages/Schedule/Schedule.js';
+import Tickets from './Pages/Tickets/Tickets.js';
+import Navbar from './Components/NavBar/Navbar.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body className="background">
+      <>
+        <Navbar />
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/tickets" element={<Tickets />} />
+            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/rewards" element={<Rewards />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </div>
+      </>
+    </body>
   );
 }
 
