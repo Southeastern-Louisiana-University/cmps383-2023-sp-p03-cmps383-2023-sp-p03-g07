@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background-color: #14273e;
+}
+
+.bannerLogo {
+    text-align: left;
+    text-decoration: none;
+}
+
+.account {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.login {
+    color:whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.navbar-login {
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.sign-up {
+    color:whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.navbar-sign-up {
+    color:whitesmoke;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.navbar-login:hover, .navbar-sign-up:hover {
+    color: #fcd34d;
+}
+
+.navbar-login.active , .navbar-sign-up.active {
+    color: #fcd34d;
+}

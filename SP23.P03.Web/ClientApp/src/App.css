@@ -1,6 +1,12 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 .background {
   text-align: center;
-  background-image: url(./Materials/entrack_background.png);
+  background-image: url(./Components/Materials/entrack_background.png);
   position: fixed;
   min-width: 100%;
   min-height: 100%;
@@ -8,33 +14,24 @@
   background-position: center;
 }
 
-.App-header {
-  background-color: #004280;
-  padding-top: 15px;
-  padding-bottom: 20px;
-}
 
-.App-title {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 45px;
-  text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 40px;
-  color: #fcd34d;
-}
 
-.Container-box {
+.content-box {
   text-align: center;
   align-items: center;
   display: flex, inline-block;
-  width: 750px;
-  height: 500px;
-  background: #004280;
+  width: 1000px;
+  height: 600px;
+  background: #14273e;
   margin-left: 585px;
   margin-top: 10%;
-  border-radius: 25px;
+  border-radius: 15px;
   border-color: #fcd34d;
+  color: #fff;
+  padding: 25px;
+  margin: auto;
+  margin-top: 50px;
+  opacity: 85%;
 }
 
 .Container-navItems {
