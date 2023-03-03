@@ -1,11 +1,12 @@
 .navbar {
-    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #14273e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav-container {
@@ -19,13 +20,13 @@
 .navItems {
     color:whitesmoke;
     text-decoration: none;
-    
 }
 
 .nav-link {
     color:whitesmoke;
     text-decoration: none;
     margin-left: 50px;
+    padding: 11.5px;
 }
 
 .nav-link:hover {
@@ -34,4 +35,7 @@
 
 .nav-link.active {
     color: #fcd34d;
+    border-bottom-style: solid;
+    border-bottom-color: #fcd34d;
+    border-bottom-width: 3px;
 }

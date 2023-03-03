@@ -17,22 +17,23 @@ function App() {
   return (
     <body className="background">
       <Banner />
-      <div className="content-box">
-        <>
-          <Navbar />
-          <div className="container">
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route path="/tickets" element={<Tickets />} />
-              <Route path="/schedule" element={<Schedule />} />
-              <Route path="/rewards" element={<Rewards />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/sign-up" element={<SignUp />} />
-              <Route path="*" element={<Navigate to="/" />} />
+      <div className="line-separator" />
+      <>
+        <Navbar />
+        <div className="app-container">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/tickets" element={<Tickets />} />
+            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/rewards" element={<Rewards />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="*" element={<Navigate to="/" />} />
             </Routes>
-          </div>
-        </>
-      </div>
+        </div>
+        <div className="line-separator" />
+      </>
+      <div className="content-box"></div>
     </body>
   );
 }

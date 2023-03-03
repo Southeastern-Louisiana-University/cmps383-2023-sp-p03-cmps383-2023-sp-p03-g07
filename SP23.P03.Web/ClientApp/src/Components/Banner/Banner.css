@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.container {
+.banner-container {
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -18,25 +18,29 @@
     text-decoration: none;
 }
 
-.account {
+.account-buttons {
     justify-content: space-between;
     align-items: center;
     display: flex;
 }
 
-.login {
+.login-button {
     color:whitesmoke;
     text-decoration: none;
     list-style-type: none;
-    margin: 20px;
 }
 
 .navbar-login {
     color:whitesmoke;
     text-decoration: none;
+    margin-right: 25px;
+    list-style-type: none;
+    padding: auto;
+    align-items: center;
+    border-radius: 2px;
 }
 
-.sign-up {
+.sign-up-button {
     color:whitesmoke;
     text-decoration: none;
     list-style-type: none;
@@ -47,6 +51,12 @@
     color:whitesmoke;
     text-decoration: none;
     margin-right: 25px;
+    color:whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+    padding: auto;
+    align-items: center;
+    border-radius: 2px;
 }
 
 .navbar-login:hover, .navbar-sign-up:hover {

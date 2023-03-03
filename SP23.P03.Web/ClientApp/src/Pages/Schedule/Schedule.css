@@ -1,3 +1,16 @@
 .text-center {
-    color: #fcd34d;
+    color: #2d588d;
+}
+
+.body-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: auto;
+    max-width: 1080px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    margin-top: 25px;
 }
