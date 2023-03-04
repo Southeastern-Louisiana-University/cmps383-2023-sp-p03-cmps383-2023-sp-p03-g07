@@ -16,6 +16,8 @@
 .bannerLogo {
     text-align: left;
     text-decoration: none;
+    list-style-type: none;
+    margin-left: 25px;
 }
 
 .account-buttons {
