@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-container {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background-color: #14273e;
+}
+
+.bannerLogo {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.account-buttons {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.login-button {
+    color:whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar-login {
+    color:whitesmoke;
+    text-decoration: none;
+    margin-right: 25px;
+    list-style-type: none;
+    padding: auto;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.sign-up-button {
+    color:whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.navbar-sign-up {
+    color:whitesmoke;
+    text-decoration: none;
+    margin-right: 25px;
+    color:whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+    padding: auto;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.navbar-login:hover, .navbar-sign-up:hover {
+    color: #fcd34d;
+}
+
+.navbar-login.active , .navbar-sign-up.active {
+    color: #fcd34d;
+}

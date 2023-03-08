@@ -1,38 +1,54 @@
-.App {
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.background {
   text-align: center;
+  background-image: url(./Components/Materials/entrack_background.png);
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.line-separator {
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex, inline-block;
+  width: 100%;
+  height: 5px;
+  background: #2d588d;
 }
 
-.App-link {
-  color: #61dafb;
+.content-box {
+  text-align: center;
+  align-items: center;
+  display: flex, inline-block;
+  width: 1000px;
+  height: 600px;
+  background: whitesmoke;
+  color: #fff;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 85%;
+  border-left-style: solid;
+  border-left-color: #2d588d;
+  border-left-width: 5px;
+  border-right-style: solid;
+  border-right-color: #2d588d;
+  border-right-width: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-container {
+  background-color: whitesmoke;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
