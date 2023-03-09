@@ -1,7 +1,8 @@
-import React from 'react'
-import './Banner.css';
-import { NavLink } from 'react-router-dom';
-import mainLogo from '../Materials/entrack_logo.png';
+/* eslint-disable jsx-a11y/alt-text */
+import React from "react";
+import "./Banner.css";
+import { NavLink } from "react-router-dom";
+import mainLogo from "../Materials/entrack_logo.png";
 
 function Banner() {
     return (
@@ -17,8 +18,18 @@ function Banner() {
                     <li><NavLink className="navbar-sign-up" to="/sign-up">Sign Up</NavLink></li>
                 </div>
             </div>
+
         </div>
-    )
+        <div className="sign-up-button">
+          <li>
+            <NavLink className="navbar-sign-up" to="/sign-up">
+              Sign Up
+            </NavLink>
+          </li>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Banner;
