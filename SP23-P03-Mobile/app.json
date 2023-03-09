@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "SP23-P03-Mobile-g##",
-    "slug": "SP23-P03-Mobile-g##",
+    "name": "SP23-P03-Mobile-g07",
+    "slug": "SP23-P03-Mobile-g07",
     "owner": "envoc_infrastructure",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./Materials/entrack_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.selu383.sp23.p03.g##"
+      "package": "com.selu383.sp23.p03.g07"
     },
     "web": {
       "favicon": "./assets/favicon.png"
