@@ -261,3 +261,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+SP23.P03.Web/appsettings.json
+SP23.P03.Web/appsettings.json

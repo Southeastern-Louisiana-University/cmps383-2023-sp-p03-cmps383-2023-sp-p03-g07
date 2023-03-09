@@ -73,20 +73,37 @@ public static class SeedHelper
     {
         var trainStations = dataContext.Set<TrainStation>();
 
-        if (await trainStations.AnyAsync())
-        {
-            return;
-        }
+        //if (await trainStations.AnyAsync())
+        //{
+        //    return;
+        //}
 
-        for (int i = 0; i < 3; i++)
-        {
-            dataContext.Set<TrainStation>()
-                .Add(new TrainStation
-                {
-                    Name = "Hammond",
-                    Address = "1234 Place st"
-                });
-        }
+        //for (int i = 0; i < 3; i++)
+        //{
+        //    dataContext.Set<TrainStation>()
+        //        .Add(new TrainStation
+        //        {
+        //            Name = "Hammond",
+        //            Address = "1234 Place st"
+        //        });
+        //}
+
+        dataContext.Set<TrainStation>()
+            .Add(new TrainStation
+            {
+                Name = "New Orleans",
+                Address = "1234 Place st"
+            });
+
+        dataContext.Set<TrainStation>()
+            .Add(new TrainStation
+            {
+                Name = "Covington",
+                Address = "1234 Place st"
+            });
+
+
+
 
         await dataContext.SaveChangesAsync();
     }

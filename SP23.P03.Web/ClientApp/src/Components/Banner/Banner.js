@@ -7,7 +7,7 @@ function Banner() {
     return (
         <div className="banner-container">
             <div className="bannerLogo">
-                <li><NavLink className="navbar-logo" exact to="/"><img src={mainLogo}></img></NavLink></li>
+                <li><NavLink className="navbar-logo" exact to="/"><img src={mainLogo} alt="entrack logo"></img></NavLink></li>
             </div>
             <div className="account-buttons">
                 <div className="login-button">
