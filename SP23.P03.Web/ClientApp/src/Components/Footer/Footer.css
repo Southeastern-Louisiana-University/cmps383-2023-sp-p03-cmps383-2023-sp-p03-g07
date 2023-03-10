@@ -1,0 +1,126 @@
+.footer-container {
+    margin: auto;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #14273e;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.footer-body {
+    height: 300px;
+    justify-content: space-between;
+}
+
+.footer-right-content {
+    height: 250px;
+    width: 42.75%;
+    background-image: linear-gradient(#14273e , #1f3a5c);
+    display: inline-flex;
+    align-self: end;
+    text-align: left;
+    float: right;
+    border-left-style: solid;
+    border-left-color: #fcd34d;
+    border-left-width: 2px;
+}
+
+.entrack-name {
+    color: #fcd34d;
+    margin-bottom: 5px;
+}
+
+.footer-paragraph {
+    margin: 50px;
+    margin-right: 100px;
+    max-width: 700px;
+    float: right;
+}
+
+.footer-left-content {
+    width: 57.25%;
+    text-align: left;
+    float: left;
+    height: 250px;
+    background-color: #182e49;
+    background-image: linear-gradient(#14273e , #1f3a5c);
+    
+    /*border-style: solid;
+    border-color: blueviolet;
+    border-width: 1px;*/
+}
+
+.footer-header {
+    height: 100px;
+    display: inline-flex;
+}
+
+.link-list {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.important-links-header {
+    margin-top: 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.links:hover {
+    color: #fcd34d;
+    margin-left: 3px;
+    transition-duration: 0.28s;
+}
+
+.footer-right {
+    width: 225px;
+    margin-left: 20px;
+}
+
+.footer-bottom {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    display: flex;
+    font-size: small;
+    max-height: 25px;
+    margin: auto;
+    padding: 15px;
+    width: 100%;
+}
+
+.legal {
+    text-align: left;
+}
+
+.address {
+    text-align: right;
+}
+
+.dev-tool {
+    list-style-type: none;
+}
+
+.dev {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.dev:hover {
+    color: #fcd34d;
+    transition-duration: 1s;
+}
+
+.store-icons {
+    margin: auto;
+    margin-left: 30px;
+    width: 175px;
+}

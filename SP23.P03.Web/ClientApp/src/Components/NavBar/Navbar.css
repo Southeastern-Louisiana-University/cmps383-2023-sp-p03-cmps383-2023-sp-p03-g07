@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #14273e;
+    background-image: linear-gradient(#1f3a5c, #14273e);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     padding-top: 15px;
@@ -31,6 +31,7 @@
 
 .nav-link:hover {
     color: #fcd34d;
+    transition-duration: 0.5s;
 }
 
 .nav-link.active {
