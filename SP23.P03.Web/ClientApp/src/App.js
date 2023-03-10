@@ -12,29 +12,34 @@ import Login from './Pages/Account/Login/Login.js';
 import SignUp from './Pages/Account/Sign Up/SignUp.js';
 import Navbar from './Components/NavBar/Navbar.js';
 import Banner from './Components/Banner/Banner.js';
+import Footer from './Components/Footer/Footer.js';
 
 function App() {
   return (
-    <body className="background">
-      <Banner />
-      <div className="line-separator" />
-      <>
-        <Navbar />
-        <div className="app-container">
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/tickets" element={<Tickets />} />
-            <Route path="/schedule" element={<Schedule />} />
-            <Route path="/rewards" element={<Rewards />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/sign-up" element={<SignUp />} />
-            <Route path="*" element={<Navigate to="/" />} />
-            </Routes>
-        </div>
+    <div className="app-container">
+      <body className="app-body">
+        <Banner />
         <div className="line-separator" />
-      </>
-      <div className="content-box"></div>
-    </body>
+        <>
+          <Navbar /> 
+          <div className="background-image">
+          <div className="content-box">
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/tickets" element={<Tickets />} />
+              <Route path="/schedule" element={<Schedule />} />
+              <Route path="/rewards" element={<Rewards />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/sign-up" element={<SignUp />} />
+              <Route path="/swagger/index.html" target="_blank" />
+              <Route path="*" element={<Navigate to="/" />} />
+            </Routes>
+          </div>
+          </div>
+        </>
+        <Footer />
+      </body>
+    </div>
   );
 }
 
