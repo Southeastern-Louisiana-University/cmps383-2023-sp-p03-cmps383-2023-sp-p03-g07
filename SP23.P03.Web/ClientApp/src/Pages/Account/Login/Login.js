@@ -3,13 +3,25 @@ import './Login.css';
 
 function Login() {
     return (
-        <div className="container">
-            <h1 className="text-center">
+        <div className="login-container">
+            <h1 className="login-header">
                 Login
             </h1>
-            <body className="body-content">
-                <div className="paragraph">
-                    PLACEHOLDER (LOGIN)
+            <body className="login-body">
+                <div className="Username">
+                    <input type="text" placeholder="Username" className="username-input" />
+                </div>
+                <div className="Password">
+                    <input type="text" placeholder="Password" className="password-input" />
+                </div>
+                <div className="button-submit">
+                    <button className="Submit">Login</button>
+                </div>
+                <div className="divider">
+                    <div className="or-divider" />or<div className="or-divider" />
+                </div>
+                <div className="button-sign-up">
+                    <button className="Sign-Up">Sign Up</button>
                 </div>
             </body>
         </div>

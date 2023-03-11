@@ -32,14 +32,15 @@
   text-align: center;
   align-items: center;
   display: flex, inline-block;
-  width: 1200px;
-  height: 600px;
+  width: auto;
+  height: auto;
+  min-height: 300px;
   background: whitesmoke;
   color: black;
+  /*opacity: 85%;*/
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  opacity: 90%;
   border-left-style: solid;
   border-left-color: #2d588d;
   border-left-width: 5px;

@@ -1,16 +1,134 @@
-.text-center {
-    color: #2d588d;
+.login-container {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
 }
 
-.body-content {
+.login-header {
+    color: #2d588d;
+
+    border-style: solid;
+    border-color: pink;
+    border-width: 1px;
+}
+
+.login-body {
     margin-left: 50px;
     margin-right: 50px;
     margin: auto;
-    max-width: 1080px;
+    width: 375px;
+    height: 400px;
+    padding: 15px;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
+    opacity: 100%;
+
+    border-style: solid;
+    border-color: lime;
+    border-width: 1px;
 }
 
-.paragraph {
-    margin-top: 25px;
+.Username {
+
+
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 1px;
+}
+
+.username-input {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    text-align: left;
+}
+
+.Password {
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;
+}
+
+.password-input {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    text-align: left;
+}
+
+.button-submit {
+    border-style: solid;
+    border-color: olivedrab;
+    border-width: 1px;
+}
+
+.Submit {
+    margin: 10px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.Submit:hover {
+    background-color: #14273e;
+}
+
+.divider {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #2d588d;
+    padding: 5px;
+}
+
+.or-divider {
+    width: 120px;
+    height: 2px;
+    background-color: #2d588d;
+    margin: 10px;
+}
+
+.button-sign-up {
+    border-style: solid;
+    border-color: olivedrab;
+    border-width: 1px;
+}
+
+.Sign-Up {
+    margin: 10px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.Sign-Up:hover {
+    background-color: #14273e;
 }
