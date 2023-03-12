@@ -1,40 +1,23 @@
-.login-container {
-    border-style: solid;
-    border-color: red;
-    border-width: 1px;
-}
-
 .login-header {
     color: #2d588d;
-
-    border-style: solid;
-    border-color: pink;
-    border-width: 1px;
 }
 
 .login-body {
     margin-left: 50px;
     margin-right: 50px;
     margin: auto;
-    width: 375px;
-    height: 400px;
+    width: auto;
+    height: auto;
     padding: 15px;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
-    opacity: 100%;
-
-    border-style: solid;
-    border-color: lime;
-    border-width: 1px;
-}
-
-.Username {
-
-
-    border-style: solid;
-    border-color: blueviolet;
-    border-width: 1px;
+    background: rgba(245, 245, 245, 0.0);
+    border-radius: 15px;
+    margin: 25px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
 }
 
 .username-input {
@@ -42,17 +25,14 @@
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 5px;
     border-color: #2d588d;
-    border-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
     width: 275px;
     text-align: left;
-}
-
-.Password {
-    border-style: solid;
-    border-color: orange;
-    border-width: 1px;
 }
 
 .password-input {
@@ -60,17 +40,15 @@
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 5px;
     border-color: #2d588d;
-    border-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
     width: 275px;
     text-align: left;
-}
-
-.button-submit {
-    border-style: solid;
-    border-color: olivedrab;
-    border-width: 1px;
+    /*-webkit-text-security: disc;*/
 }
 
 .Submit {
@@ -107,12 +85,6 @@
     height: 2px;
     background-color: #2d588d;
     margin: 10px;
-}
-
-.button-sign-up {
-    border-style: solid;
-    border-color: olivedrab;
-    border-width: 1px;
 }
 
 .Sign-Up {

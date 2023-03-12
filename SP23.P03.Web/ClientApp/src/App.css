@@ -31,16 +31,13 @@
 .content-box {
   text-align: center;
   align-items: center;
-  display: flex, inline-block;
-  width: auto;
   height: auto;
   min-height: 300px;
-  background: whitesmoke;
+  background: rgba(245, 245, 245, 0.85);
   color: black;
-  /*opacity: 85%;*/
-  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  display: inline-block;
   border-left-style: solid;
   border-left-color: #2d588d;
   border-left-width: 5px;

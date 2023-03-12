@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import StoreIcons from "../Materials/googleplay-appstore.png";
 
 function Footer() {
@@ -29,12 +29,12 @@ function Footer() {
                                 Important Links:
                             </h4>
                             <div className="link-list">
-                                <li><NavLink className="links" to="/">Home</NavLink></li>
-                                <li><NavLink className="links" to="/tickets">Tickets</NavLink></li>
-                                <li><NavLink className="links" to="/schedule">Schedule</NavLink></li>
-                                <li><NavLink className="links" to="/rewards">Rewards</NavLink></li>
-                                <li><NavLink className="links" to="/login">Login</NavLink></li>
-                                <li><NavLink className="links" to="/sign-up">Sign Up</NavLink></li>
+                                <li><Link className="links" to="/">Home</Link></li>
+                                <li><Link className="links" to="/tickets">Tickets</Link></li>
+                                <li><Link className="links" to="/schedule">Schedule</Link></li>
+                                <li><Link className="links" to="/rewards">Rewards</Link></li>
+                                <li><Link className="links" to="/login">Login</Link></li>
+                                <li><Link className="links" to="/sign-up">Sign Up</Link></li>
                             </div>
                         </div>
                         <div className="important-links">
@@ -42,9 +42,9 @@ function Footer() {
                                 Devoloper Tools:
                             </h4>
                             <div className="link-list">
-                                <li><NavLink className="links" to="/swagger/index.html" target="_blank">
+                                <li><Link className="links" to="/swagger/index.html" target="_blank">
                                     Devoloper (Swagger)
-                                </NavLink></li>
+                                </Link></li>
                             </div>
                         </div>
                     </div>
