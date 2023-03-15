@@ -1,9 +1,14 @@
-.text-center {
+.tickets-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tickets-text-center {
     color: #2d588d;
     text-align: center;
 }
 
-.body-content {
+.tickets-body-content {
     margin-left: 50px;
     margin-right: 50px;
     margin: auto;
@@ -12,6 +17,6 @@
     align-items: center;
 }
 
-.paragraph {
+.tickets-paragraph {
     margin-top: 25px;
 }

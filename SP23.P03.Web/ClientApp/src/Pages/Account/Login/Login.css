@@ -77,11 +77,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     color: #2d588d;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 .or-divider {
-    width: 120px;
+    width: 115px;
     height: 2px;
     background-color: #2d588d;
     margin: 10px;

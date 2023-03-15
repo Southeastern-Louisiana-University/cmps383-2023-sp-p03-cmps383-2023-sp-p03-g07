@@ -3,13 +3,15 @@ import './Rewards.css';
 
 function Rewards() {
     return (
-        <div className="container">
-            <h1 className="text-center">
+        <div className="rewards-container">
+            <h1 className="rewards-text-center">
                 Rewards
             </h1>
-            <body className="body-content">
-                <div className="paragraph">
-                PLACEHOLDER (REWARDS)
+            <body className="rewards-body-content">
+                <div className="rewards-paragraph">
+                    Welcome to the rewards page!
+                    <br />
+                    Here we will be able to see rider rewards!
                 </div>
             </body>
         </div>

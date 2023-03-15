@@ -39,12 +39,18 @@ function Footer() {
                         </div>
                         <div className="important-links">
                             <h4 className="important-links-header">
-                                Devoloper Tools:
+                                Our Sponsors:
                             </h4>
                             <div className="link-list">
-                                <li><Link className="links" to="/swagger/index.html" target="_blank">
-                                    Devoloper (Swagger)
-                                </Link></li>
+                                <a
+                                    className="links"
+                                    href="https://www.southeastern.edu/"
+                                    target="_blank"
+                                    title="Go to external site: https://www.southeastern.edu/"
+                                    rel = "noopener noreferrer"
+                                >
+                                    SELU
+                                </a>
                             </div>
                         </div>
                     </div>
