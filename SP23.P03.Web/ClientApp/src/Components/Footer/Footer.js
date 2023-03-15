@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import StoreIcons from "../Materials/googleplay-appstore.png";
 
 function Footer() {
@@ -29,22 +29,28 @@ function Footer() {
                                 Important Links:
                             </h4>
                             <div className="link-list">
-                                <li><NavLink className="links" to="/">Home</NavLink></li>
-                                <li><NavLink className="links" to="/tickets">Tickets</NavLink></li>
-                                <li><NavLink className="links" to="/schedule">Schedule</NavLink></li>
-                                <li><NavLink className="links" to="/rewards">Rewards</NavLink></li>
-                                <li><NavLink className="links" to="/login">Login</NavLink></li>
-                                <li><NavLink className="links" to="/sign-up">Sign Up</NavLink></li>
+                                <li><Link className="links" to="/">Home</Link></li>
+                                <li><Link className="links" to="/tickets">Tickets</Link></li>
+                                <li><Link className="links" to="/schedule">Schedule</Link></li>
+                                <li><Link className="links" to="/rewards">Rewards</Link></li>
+                                <li><Link className="links" to="/login">Login</Link></li>
+                                <li><Link className="links" to="/sign-up">Sign Up</Link></li>
                             </div>
                         </div>
                         <div className="important-links">
                             <h4 className="important-links-header">
-                                Devoloper Tools:
+                                Our Sponsors:
                             </h4>
                             <div className="link-list">
-                                <li><NavLink className="links" to="/swagger/index.html" target="_blank">
-                                    Devoloper (Swagger)
-                                </NavLink></li>
+                                <a
+                                    className="links"
+                                    href="https://www.southeastern.edu/"
+                                    target="_blank"
+                                    title="Go to external site: https://www.southeastern.edu/"
+                                    rel = "noopener noreferrer"
+                                >
+                                    SELU
+                                </a>
                             </div>
                         </div>
                     </div>

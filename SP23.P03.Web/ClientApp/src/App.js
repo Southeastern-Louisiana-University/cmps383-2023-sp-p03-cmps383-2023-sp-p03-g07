@@ -31,7 +31,6 @@ function App() {
               <Route path="/rewards" element={<Rewards />} />
               <Route path="/login" element={<Login />} />
               <Route path="/sign-up" element={<SignUp />} />
-              <Route path="/swagger/index.html" target="_blank" />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>

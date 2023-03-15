@@ -1,9 +1,14 @@
-.text-center {
+.rewards-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rewards-text-center {
     color: #2d588d;
     text-align: center;
 }
 
-.body-content {
+.rewards-body-content {
     margin-left: 50px;
     margin-right: 50px;
     margin: auto;
@@ -12,6 +17,6 @@
     align-items: center;
 }
 
-.paragraph {
+.rewards-paragraph {
     margin-top: 25px;
 }

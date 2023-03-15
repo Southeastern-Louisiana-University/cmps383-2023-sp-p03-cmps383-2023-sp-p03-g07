@@ -17,7 +17,7 @@
     margin: auto;
 }
 
-.navItems {
+.nav-items {
     color:whitesmoke;
     text-decoration: none;
 }
@@ -31,7 +31,7 @@
 
 .nav-link:hover {
     color: #fcd34d;
-    transition-duration: 0.5s;
+    transition: color 0.5s;
 }
 
 .nav-link.active {

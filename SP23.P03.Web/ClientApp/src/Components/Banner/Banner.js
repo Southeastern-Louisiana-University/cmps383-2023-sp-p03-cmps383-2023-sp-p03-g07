@@ -7,7 +7,7 @@ import mainLogo from "../Materials/entrack_logo.png";
 function Banner() {
   return (
     <div className="banner-container">
-      <div className="bannerLogo">
+      <div className="bannerLogo" title="Go to Entrack home">
         <li>
           <NavLink className="navbar-logo" exact to="/">
             <img src={mainLogo}></img>
