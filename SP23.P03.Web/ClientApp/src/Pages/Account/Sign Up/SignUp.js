@@ -3,19 +3,44 @@ import './SignUp.css';
 
 function SignUp() {
     return (
-        <div className="container">
-            <h1 className="text-center">
-                Sign Up
-            </h1>
-            <body className="body-content">
-                <div className="paragraph">
-                    Donec arcu tellus, gravida eu leo quis, semper tincidunt ligula. 
-                    Etiam dictum at ante et tincidunt. Donec a sagittis est. 
-                    Proin ac urna vel orci faucibus venenatis. Donec auctor ligula metus, 
-                    et pellentesque metus hendrerit feugiat. Aenean lobortis consectetur turpis, 
-                    a placerat tortor efficitur nec. Integer commodo dolor et convallis vehicula. 
-                    Nunc quis nisi nisi. Etiam ut suscipit velit, ac placerat sem.
-                </div>
+        <div className="signup-container">
+            <body className="signup-body">
+                <h1 className="signup-header">
+                    Sign Up
+                </h1>
+                <form name="sign-up" className="signup-form">
+                    <div className="signup-Username">
+                        <input 
+                            name="username"
+                            className="signup-username-input"
+                            type="username" 
+                            placeholder="Username"
+                        />
+                    </div>
+                    <div className="signup-Password">
+                        <input
+                            name="password"
+                            className="signup-password-input"
+                            type="password"
+                            placeholder="Password"
+                        />
+                    </div>
+                    <div className="signup-Password">
+                        <input
+                            name="confirm-password"
+                            className="signup-password-input"
+                            type="password"
+                            placeholder="Confirm Password"
+                        />
+                    </div>
+                    <div className="button-create">
+                        <input
+                            className="Create"
+                            type="submit"
+                            value="Create"
+                        />
+                    </div>
+                </form>
             </body>
         </div>
     )

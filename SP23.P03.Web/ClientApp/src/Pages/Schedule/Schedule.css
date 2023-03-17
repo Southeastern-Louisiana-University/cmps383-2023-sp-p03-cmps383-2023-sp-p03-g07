@@ -1,8 +1,14 @@
-.text-center {
-    color: #2d588d;
+.schedule-container {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.body-content {
+.schedule-text-center {
+    color: #2d588d;
+    text-align: center;
+}
+
+.schedule-body-content {
     margin-left: 50px;
     margin-right: 50px;
     margin: auto;
@@ -11,6 +17,6 @@
     align-items: center;
 }
 
-.paragraph {
+.schedule-paragraph {
     margin-top: 25px;
 }
