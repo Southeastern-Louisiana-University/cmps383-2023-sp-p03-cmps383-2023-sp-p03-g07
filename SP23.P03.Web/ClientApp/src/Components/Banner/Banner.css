@@ -63,6 +63,7 @@
 
 .navbar-login:hover, .navbar-sign-up:hover {
     color: #fcd34d;
+    transition-duration: 0.5s;
 }
 
 .navbar-login.active , .navbar-sign-up.active {
