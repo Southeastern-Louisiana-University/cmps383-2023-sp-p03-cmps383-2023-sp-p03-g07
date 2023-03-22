@@ -15,7 +15,7 @@ function Login() {
                             name="username"
                             className="username-input"
                             type="text"
-                            placeholder="Username"
+                            placeholder="Username or Email"
                         />
                     </div>
                     <div className="Password">

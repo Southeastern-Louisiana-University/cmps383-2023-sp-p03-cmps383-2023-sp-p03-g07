@@ -35,6 +35,21 @@
     text-align: left;
 }
 
+.signup-email-input {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 275px;
+    text-align: left;
+}
+
 .signup-password-input {
     margin: 10px;
     padding: 10px;

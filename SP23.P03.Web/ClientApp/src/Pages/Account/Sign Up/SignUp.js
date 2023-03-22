@@ -17,6 +17,14 @@ function SignUp() {
                             placeholder="Username"
                         />
                     </div>
+                    <div className="signup-Email">
+                        <input
+                            name="email"
+                            className="signup-email-input"
+                            type="email"
+                            placeholder="Email"
+                        />
+                    </div>
                     <div className="signup-Password">
                         <input
                             name="password"
