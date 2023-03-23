@@ -1,23 +1,48 @@
 import React from 'react'
 import './Login.css';
+import { Link } from 'react-router-dom';
 
 function Login() {
     return (
-        <div className="container">
-            <h1 className="text-center">
-                Login
-            </h1>
-            <body className="body-content">
-                <div className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenean mauris quam, pulvinar et neque vitae, vehicula fringilla est.
-                    Aliquam ac posuere elit. Vestibulum a quam malesuada, laoreet nulla vel, placerat metus.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vestibulum quis viverra ligula. In lacinia venenatis arcu, eu ornare odio rutrum ut. 
-                    Cras ornare commodo venenatis. Aliquam vehicula ultricies sapien vel interdum. 
-                    Aliquam varius, purus non iaculis venenatis, velit felis euismod turpis, 
-                    et luctus turpis massa ut leo.
-                </div>
+        <div className="login-container">
+            <body className="login-body">
+                <h1 className="login-header">
+                    Login
+                </h1>
+                <form name="login" className="login-form">
+                    <div className="Username">
+                        <input
+                            name="username"
+                            className="username-input"
+                            type="text"
+                            placeholder="Username or Email"
+                        />
+                    </div>
+                    <div className="Password">
+                        <input
+                            name="password"
+                            className="password-input"
+                            type="password"
+                            placeholder="Password"
+                        />
+                    </div>
+                    <div className="button-submit">
+                        <input
+                            className="Submit"
+                            type="submit"
+                            value="Login" />
+                    </div>
+                    <div className="divider">
+                        <div className="or-divider" />or<div className="or-divider" />
+                    </div>
+                    <div className="button-sign-up">
+                        <Link to="/sign-up">
+                        <button className="Sign-Up">
+                            Sign Up
+                        </button>
+                        </Link>
+                    </div>
+                </form>
             </body>
         </div>
     )

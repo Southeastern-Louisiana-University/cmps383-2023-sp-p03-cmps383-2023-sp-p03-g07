@@ -1,16 +1,85 @@
-.text-center {
+.signup-header {
     color: #2d588d;
 }
 
-.body-content {
+.signup-body {
     margin-left: 50px;
     margin-right: 50px;
     margin: auto;
-    max-width: 1080px;
+    width: auto;
+    height: auto;
+    padding: 15px;
     justify-content: center;
     align-items: center;
+    background: rgba(245, 245, 245, 0.0);
+    border-radius: 15px;
+    margin: 25px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
 }
 
-.paragraph {
-    margin-top: 25px;
+.signup-username-input {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 275px;
+    text-align: left;
+}
+
+.signup-email-input {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 275px;
+    text-align: left;
+}
+
+.signup-password-input {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 275px;
+    text-align: left;
+    /*-webkit-text-security: disc;*/
+}
+
+.Create {
+    margin: 10px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.Create:hover {
+    background-color: #14273e;
 }
