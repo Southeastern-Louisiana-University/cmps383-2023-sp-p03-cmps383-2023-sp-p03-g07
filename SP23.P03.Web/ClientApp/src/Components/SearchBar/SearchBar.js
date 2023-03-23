@@ -29,9 +29,12 @@ function SearchBar({ placeholder, data }) {
         setInputData("");
     }
 
-   /*  const selectInput = (event) =>{
-        setInputData();
-    } */
+     const selectInput = (result) =>{
+        console.log(result+"here");
+        console.log(result.name);
+        setInputData(result.name);
+        setFilteredData([]);
+    } 
 
 
 
@@ -46,6 +49,7 @@ function SearchBar({ placeholder, data }) {
                 />
 
                 <div className="searchIcon">
+                    
                     {inputData.length === 0 ? (
                         <SearchIcon />
                     ) : (
@@ -63,7 +67,7 @@ function SearchBar({ placeholder, data }) {
                 <div className="dataResult">
                     {!filteredData ? null : filteredData.map(result => {
                         return (<p id="clearBtn"
-                         //onClick={selectInput}
+                         onClick={e => selectInput(result)}
                          >{result.name}</p>)
                     })}
                 </div>
