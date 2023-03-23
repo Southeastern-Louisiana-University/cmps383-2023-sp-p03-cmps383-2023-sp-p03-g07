@@ -5,10 +5,10 @@
     "owner": "envoc_infrastructure",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./Materials/entrack_logo.png",
+    "icon": "./assets/logo192.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./Materials/entrack_logo.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
