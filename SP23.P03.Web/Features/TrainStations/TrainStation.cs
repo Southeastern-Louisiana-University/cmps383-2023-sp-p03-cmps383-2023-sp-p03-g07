@@ -11,5 +11,6 @@ public class TrainStation
     public string Address { get; set; } = string.Empty;
 
     public int? ManagerId { get; set; }
+
     public virtual User? Manager { get; set; }
 }

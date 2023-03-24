@@ -1,30 +1,40 @@
-import React from 'react'
 import './Tickets.css';
+import React, { useState, useEffect } from 'react';
+import SearchBar from '../../Components/SearchBar/SearchBar';
 
-function Tickets() {
+export default function Tickets() {
+
+    const [stations, setStations] = useState()
+
+    useEffect(() => {
+        fetch("/api/stations").then(response => response.json())
+        .then(data => setStations(data));
+    }, []);
+
+
+//console.log(stations);
+
     return (
-        <div className="content-box">
-            <main>
-                <div className="tickets-container">
-                    <h1 className="tickets-text-center">
-                        Tickets
-                    </h1>
-                    <body className="tickets-body-content">
-                        <div className="get-tickets">
-                        <SearchBar placeholder="From" data={stations}/>
+        <main>
+            <div className="tickets-container">
+                <h1 className="tickets-text-center">
+                    Tickets
+                </h1>
+                <body className="tickets-body-content">
+                    <div className="get-tickets">
+                    <SearchBar placeholder="From" data={stations}/>
 
 
-                                                {/* <div>{!stations ? null : stations.map(result =>{
-                                                    return( <p>{result.name}</p>)
-                                                })}
-                                                </div>
-                                                <input></input> */}
-                        </div>
-                    </body>
-                </div>
-            </main>
-        </div>
+                                            {/* <div>{!stations ? null : stations.map(result =>{
+                                                return( <p>{result.name}</p>)
+                                            })}
+                                            </div>
+                                            <input></input> */}
+                    </div>
+                </body>
+            </div>
+        </main>
     )
+
 }
 
-export default Tickets;
