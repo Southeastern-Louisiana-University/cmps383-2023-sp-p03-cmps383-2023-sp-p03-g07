@@ -10,15 +10,15 @@ function Footer() {
             <div>
                 <div className="footer-left-content">
                     <div className="footer-paragraph">
-                        <h4 className="entrack-name">Entrack</h4>
+                        <h4 className="entrack-name">EnTrack</h4>
                         is a modern and efficient transportation service 
                         that offers a comfortable and convenient way to travel. 
                         Whether you're commuting to work or exploring new destinations, 
-                        Entrack provides a reliable and enjoyable travel experience. 
+                        EnTrack provides a reliable and enjoyable travel experience. 
                         With state-of-the-art technology and spacious seating, 
-                        Entrack is perfect for both business and leisure travel. 
+                        EnTrack is perfect for both business and leisure travel. 
                         Plus, with frequent departures and multiple routes, 
-                        Entrack makes it easy to get where you need to go. 
+                        EnTrack makes it easy to get where you need to go. 
                         So sit back, relax, and enjoy the ride with Entrack!
                     </div>
                 </div>
@@ -37,22 +37,6 @@ function Footer() {
                                 <li><Link className="links" to="/sign-up">Sign Up</Link></li>
                             </div>
                         </div>
-                        <div className="important-links">
-                            <h4 className="important-links-header">
-                                Our Sponsors:
-                            </h4>
-                            <div className="link-list">
-                                <a
-                                    className="links"
-                                    href="https://www.southeastern.edu/"
-                                    target="_blank"
-                                    title="Go to external site: https://www.southeastern.edu/"
-                                    rel = "noopener noreferrer"
-                                >
-                                    SELU
-                                </a>
-                            </div>
-                        </div>
                     </div>
                     <div className="store-icons">
                         <img src={StoreIcons} alt="App store icons" />
@@ -60,8 +44,8 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-bottom">
-                <div className="legal">© 2023 Entrack Inc.</div>
-                <div className="address">500 W University Ave, Hammond, LA 70402</div>
+                <div className="legal">© 2023 EnTrack</div>
+                <div className="address">123 EnTrack Ave, Hammond, LA 70402</div>
             </div>
         </body>
     </div>

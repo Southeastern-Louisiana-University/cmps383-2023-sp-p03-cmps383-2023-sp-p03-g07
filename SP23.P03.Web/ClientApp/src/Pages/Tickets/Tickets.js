@@ -3,17 +3,26 @@ import './Tickets.css';
 
 function Tickets() {
     return (
-        <div className="tickets-container">
-            <h1 className="tickets-text-center">
-                Tickets
-            </h1>
-            <body className="tickets-body-content">
-                <div className="tickets-paragraph">
-                    Welcome to the tickets page!
-                    <br />
-                    Here we will be able to see ticket information.
+        <div className="content-box">
+            <main>
+                <div className="tickets-container">
+                    <h1 className="tickets-text-center">
+                        Tickets
+                    </h1>
+                    <body className="tickets-body-content">
+                        <div className="get-tickets">
+                        <SearchBar placeholder="From" data={stations}/>
+
+
+                                                {/* <div>{!stations ? null : stations.map(result =>{
+                                                    return( <p>{result.name}</p>)
+                                                })}
+                                                </div>
+                                                <input></input> */}
+                        </div>
+                    </body>
                 </div>
-            </body>
+            </main>
         </div>
     )
 }

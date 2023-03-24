@@ -10,7 +10,7 @@ import Schedule from './Pages/Schedule/Schedule.js';
 import Tickets from './Pages/Tickets/Tickets.js';
 import Login from './Pages/Account/Login/Login.js';
 import SignUp from './Pages/Account/Sign Up/SignUp.js';
-import Navbar from './Components/NavBar/Navbar.js';
+import Navbar from './Components/NavBar/Navbar.jsx';
 import Banner from './Components/Banner/Banner.js';
 import Footer from './Components/Footer/Footer.js';
 
@@ -23,7 +23,6 @@ function App() {
         <>
           <Navbar /> 
           <div className="background-image">
-          <div className="content-box">
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/tickets" element={<Tickets />} />
@@ -33,7 +32,6 @@ function App() {
               <Route path="/sign-up" element={<SignUp />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
-          </div>
           </div>
         </>
         <Footer />

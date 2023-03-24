@@ -21,6 +21,7 @@
 }
 
 .username-input {
+    color: whitesmoke;
     margin: 10px;
     padding: 10px;
     padding-left: 20px;
@@ -36,6 +37,7 @@
 }
 
 .password-input {
+    color: whitesmoke;
     margin: 10px;
     padding: 10px;
     padding-left: 20px;
@@ -60,7 +62,7 @@
     border-color: #2d588d;
     border-width: 3px;
     width: 275px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: bolder;
     font-size: small;
 }
@@ -74,7 +76,7 @@
     justify-content: center;
     display: flex;
     height: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: bolder;
     color: #2d588d;
     padding-top: 5px;
@@ -96,7 +98,7 @@
     border-color: #2d588d;
     border-width: 3px;
     width: 275px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: bolder;
     font-size: small;
 }

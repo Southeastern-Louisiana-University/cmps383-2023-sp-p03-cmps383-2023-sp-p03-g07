@@ -1,22 +1,38 @@
 .home-container {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.home-text-center {
-    color: #2d588d;
+    justify-content: center;
+    flex: auto;
+    height: auto;
     text-align: center;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: pink;*/
 }
 
-.home-body-content {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin: auto;
-    max-width: 1080px;
+.home-body {
+    min-height: 500px;
+}
+
+.home-header {
+    color: #fcd34d;
+    font-family: 'Comfortaa', cursive;
+    font-size: 75px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.entrack-name-home {
+    color: #fcd34d;
+    margin-bottom: 5px;
+}
+
+.entrack-description-home {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    flex: auto;
+    max-width: 750px;
     justify-content: center;
     align-items: center;
-}
-
-.home-paragraph {
-    margin-top: 25px;
+    display: inline-block;
 }
