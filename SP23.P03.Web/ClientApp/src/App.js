@@ -13,6 +13,7 @@ import SignUp from './Pages/Account/Sign Up/SignUp.js';
 import Navbar from './Components/NavBar/Navbar.js';
 import Banner from './Components/Banner/Banner.js';
 import Footer from './Components/Footer/Footer.js';
+import Dashboard from './Pages/Account/Login/Dashboard';
 
 function App() {
   return (
