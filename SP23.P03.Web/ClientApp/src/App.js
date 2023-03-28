@@ -5,26 +5,40 @@ import {
   Routes,
   Navigate
 } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
+
+// import Desktop/Laptop components
+import Navbar from './Components/NavBar/Navbar.js';
+import Banner from './Components/Banner/Banner.js';
+import Footer from './Components/Footer/Footer.js';
+
+// import Mobile/Tablet components
+import DropdownMobile from './Components/Mobile/DropdownMobile/DropdownMobile.js';
+import BannerMobile from './Components/Mobile/BannerMobile/BannerMobile.js';
+
+// import content pages
 import Home from './Pages/Home/Home.js';
 import Rewards from './Pages/Rewards/Rewards.js';
 import Schedule from './Pages/Schedule/Schedule.js';
 import Tickets from './Pages/Tickets/Tickets.js';
 import Login from './Pages/Account/Login/Login.js';
 import SignUp from './Pages/Account/Sign Up/SignUp.js';
-import Navbar from './Components/NavBar/Navbar.js';
-import Banner from './Components/Banner/Banner.js';
-import Footer from './Components/Footer/Footer.js';
 
 function App() {
+
+  const isDesktopLaptop = useMediaQuery({ query: '(min-width: 900px)'});
+  const isTabletMobile = useMediaQuery({ query: '(max-width: 900px)' });
+
   return (
     <div className="app-container">
       <body className="app-body">
-        <Banner />
+        {isDesktopLaptop && <Banner />}
+        {isTabletMobile && <BannerMobile />}
         <div className="line-separator" />
         <>
-          <Navbar /> 
+          {isDesktopLaptop && <Navbar />}
+          {isTabletMobile && <DropdownMobile />}
           <div className="background-image">
-          <div className="content-box">
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/tickets" element={<Tickets />} />
@@ -35,9 +49,8 @@ function App() {
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
-          </div>
         </>
-        <Footer />
+        {isDesktopLaptop && <Footer />}
       </body>
     </div>
   );

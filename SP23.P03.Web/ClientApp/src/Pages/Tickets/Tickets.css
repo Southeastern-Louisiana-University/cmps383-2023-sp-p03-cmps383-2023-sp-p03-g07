@@ -1,6 +1,19 @@
 .tickets-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    width: auto;
+    height: auto;
+    min-height: 400px;
+    align-items: center;
+    border-radius: 15px;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+    background-image: linear-gradient(#14273e , #1f3a5c);
+    font-family: 'Comfortaa', cursive;
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    border-radius: 15px;
 }
 
 .tickets-text-center {
