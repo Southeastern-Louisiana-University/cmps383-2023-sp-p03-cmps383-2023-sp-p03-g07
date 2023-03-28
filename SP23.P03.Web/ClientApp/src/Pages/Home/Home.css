@@ -1,22 +1,32 @@
 .home-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    /*border-style: solid;
+    border-width: 5px;
+    border-color: pink;*/
 }
 
-.home-text-center {
-    color: #2d588d;
+.home-body {
+    min-height: 500px;
+}
+
+.home-body-mobile {
+    min-height: 500px;
+}
+
+.home-header {
+    color: #fcd34d;
+    font-size: 90px;
     text-align: center;
+    margin-bottom: 25px;
 }
 
-.home-body-content {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin: auto;
-    max-width: 1080px;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-paragraph {
-    margin-top: 25px;
+.home-header-mobile {
+    color: #fcd34d;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    
 }

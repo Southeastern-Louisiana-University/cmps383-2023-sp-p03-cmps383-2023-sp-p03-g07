@@ -1,26 +1,46 @@
 .signup-header {
-    color: #2d588d;
+    color: whitesmoke;
 }
 
 .signup-body {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin: auto;
     width: auto;
     height: auto;
-    padding: 15px;
-    justify-content: center;
     align-items: center;
-    background: rgba(245, 245, 245, 0.0);
     border-radius: 15px;
-    margin: 25px;
-    padding: 20px;
-    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     display: inline-block;
+    background-image: linear-gradient(#14273e , #1f3a5c);
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    border-radius: 15px;
+    margin-bottom: 100px;
 }
 
 .signup-username-input {
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 275px;
+    text-align: left;
+}
+
+.signup-email-input {
+    color: whitesmoke;
+    font-size: 15px;
     margin: 10px;
     padding: 10px;
     padding-left: 20px;
@@ -36,6 +56,8 @@
 }
 
 .signup-password-input {
+    color: whitesmoke;
+    font-size: 15px;
     margin: 10px;
     padding: 10px;
     padding-left: 20px;
@@ -48,7 +70,6 @@
     background: rgba(245, 245, 245, 0.0);
     width: 275px;
     text-align: left;
-    /*-webkit-text-security: disc;*/
 }
 
 .Create {
@@ -60,9 +81,7 @@
     border-color: #2d588d;
     border-width: 3px;
     width: 275px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    font-size: small;
+    font-size: 15px;
 }
 
 .Create:hover {
