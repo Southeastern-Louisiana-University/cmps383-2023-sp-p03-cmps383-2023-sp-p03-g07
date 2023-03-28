@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./SearchBar.css"
 
 
@@ -27,9 +28,12 @@ function SearchBar({ placeholder, data }) {
         setInputData("");
     }
 
-   /*  const selectInput = (event) =>{
-        setInputData();
-    } */
+     const selectInput = (result) =>{
+        console.log(result+"here");
+        console.log(result.name);
+        setInputData(result.name);
+        setFilteredData([]);
+    } 
 
 
     /* Notes for later, need to edit search icons below */
@@ -44,6 +48,7 @@ function SearchBar({ placeholder, data }) {
                 />
 
                 <div className="searchIcon">
+                    
                     {inputData.length === 0 ? (
                         <div>Open</div>
                     ) : (
@@ -61,7 +66,7 @@ function SearchBar({ placeholder, data }) {
                 <div className="dataResult">
                     {!filteredData ? null : filteredData.map(result => {
                         return (<p id="clearBtn"
-                         //onClick={selectInput}
+                         onClick={e => selectInput(result)}
                          >{result.name}</p>)
                     })}
                 </div>

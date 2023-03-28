@@ -1,6 +1,7 @@
 import './Tickets.css';
 import React, { useState, useEffect } from 'react';
 import SearchBar from '../../Components/SearchBar/SearchBar';
+import DatePickerComp from '../../Components/DatePicker/DatePickerComp';
 
 export default function Tickets() {
 
@@ -23,6 +24,10 @@ export default function Tickets() {
                 <body className="tickets-body-content">
                     <div className="get-tickets">
                     <SearchBar placeholder="From" data={stations}/>
+                    <SearchBar placeholder="To" data={stations}/> 
+                    <DatePickerComp/>
+                    <DatePickerComp/>
+                    <button>Find</button>
 
 
                                             {/* <div>{!stations ? null : stations.map(result =>{

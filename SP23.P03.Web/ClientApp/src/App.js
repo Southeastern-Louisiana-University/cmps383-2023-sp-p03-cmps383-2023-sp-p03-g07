@@ -30,6 +30,7 @@ function App() {
   const isTabletMobile = useMediaQuery({ query: '(max-width: 900px)' });
 
   return (
+    <body>
     <div className="app-container">
       <body className="app-body">
         {isDesktopLaptop && <Banner />}
@@ -53,6 +54,7 @@ function App() {
         {isDesktopLaptop && <Footer />}
       </body>
     </div>
+    </body>
   );
 }
 
