@@ -20,7 +20,7 @@ namespace SP23.P03.Web.Features.Tickets
 
 		public string? ReturnDate { get; set; }
 
-		public int TrainStationId { get; set; }
+		//public int? TrainStationId { get; set; }
 
         public List<TrainStation> TrainStations { get; set; } = new List<TrainStation>();
 
