@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import StoreIcons from "../Materials/googleplay-appstore.png";
+import StoreIcons from "../Images/googleplay-appstore.png";
 
 function Footer() {
   return (

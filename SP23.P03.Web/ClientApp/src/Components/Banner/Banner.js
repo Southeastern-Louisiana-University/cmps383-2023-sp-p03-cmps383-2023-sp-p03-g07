@@ -2,17 +2,15 @@
 import React from "react";
 import "./Banner.css";
 import { Link } from "react-router-dom";
-import mainLogo from "../Materials/entrack_logo.png";
+import mainLogo from "../Images/entrack_logo.png";
 
 function Banner() {
   return (
     <div className="banner-container">
       <div className="bannerLogo" title="Go to Entrack home">
-        <li>
-          <Link className="navbar-logo" exact to="/">
-            <img src={mainLogo}></img>
-          </Link>
-        </li>
+        <Link className="navbar-logo" exact to="/">
+          <img src={mainLogo}></img>
+        </Link>
       </div>
       <div className="account-buttons">
         <div>
