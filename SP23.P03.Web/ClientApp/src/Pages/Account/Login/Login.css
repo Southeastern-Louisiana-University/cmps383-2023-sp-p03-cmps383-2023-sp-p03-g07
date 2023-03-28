@@ -12,7 +12,6 @@
     text-align: center;
     display: inline-block;
     background-image: linear-gradient(#14273e , #1f3a5c);
-    font-family: 'Comfortaa', cursive;
     align-self: center;
     justify-content: center;
     padding-bottom: 35px;
@@ -63,7 +62,6 @@
     border-color: #2d588d;
     border-width: 3px;
     width: 275px;
-    font-family: 'Comfortaa', cursive;
     font-size: 15px;
 }
 
@@ -76,7 +74,6 @@
     justify-content: center;
     display: flex;
     height: 30px;
-    font-family: 'Comfortaa', cursive;
     font-weight: bolder;
     color: #2d588d;
     padding-top: 5px;
@@ -98,7 +95,6 @@
     border-color: #2d588d;
     border-width: 3px;
     width: 275px;
-    font-family: 'Comfortaa', cursive;
     font-size: 15px;
 }
 

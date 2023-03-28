@@ -15,7 +15,6 @@
 
 .home-header {
     color: #fcd34d;
-    font-family: 'Comfortaa', cursive;
     font-size: 90px;
     justify-content: center;
 }
@@ -27,7 +26,6 @@
 
 .entrack-description-home {
     text-align: center;
-    font-family: 'Comfortaa', cursive;
     color: white;
     flex: auto;
     max-width: 750px;
