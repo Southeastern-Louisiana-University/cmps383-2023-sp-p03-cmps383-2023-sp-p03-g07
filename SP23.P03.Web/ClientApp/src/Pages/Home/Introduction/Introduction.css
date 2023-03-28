@@ -1,11 +1,5 @@
 .intro-container {
-    min-height: 250px;
-    max-height: auto;
-    width: auto;
     background-image: linear-gradient(#14273e , #1f3a5c);
-    align-self: center;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 15px;
     border-radius: 15px;
 }
@@ -17,17 +11,29 @@
     display: flex;
 }
 
-.intro-body {
-    margin: 50px;
-    margin-right: 100px;
-    max-width: 700px;
-    color: white;
-    text-align: left;
+.intro-mobile {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-.intro-entrack-name {
-    color: #fcd34d;
-    margin-bottom: 5px;
+.intro-body {
+    margin: 25px;
+    max-width: 700px;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 48px;
+    text-align: center;
+}
+
+.intro-body-mobile {
+    margin: 25px;
+    max-width: 700px;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 18px;
+    text-align: center;
 }
 
 .intro-sign-up {

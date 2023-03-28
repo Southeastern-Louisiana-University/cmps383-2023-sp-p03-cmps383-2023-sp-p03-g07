@@ -28,7 +28,7 @@ function DropdownMobile() {
                 <Link className="drop-link" to="/login">
                     <li className="drop-list-links">Login</li>
                 </Link>
-                <Link className="drop-link" to="/login">
+                <Link className="drop-link" to="/sign-up">
                     <li className="drop-sign-up-link">Sign Up</li>
                 </Link>
             </ul>
