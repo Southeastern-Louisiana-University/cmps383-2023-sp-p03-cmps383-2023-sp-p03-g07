@@ -1,32 +1,30 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Banner.css";
-import { NavLink } from "react-router-dom";
-import mainLogo from "../Materials/entrack_logo.png";
+import { Link } from "react-router-dom";
+import mainLogo from "../Images/entrack_logo.png";
 
 function Banner() {
   return (
     <div className="banner-container">
       <div className="bannerLogo" title="Go to Entrack home">
-        <li>
-          <NavLink className="navbar-logo" exact to="/">
-            <img src={mainLogo}></img>
-          </NavLink>
-        </li>
+        <Link className="navbar-logo" exact to="/">
+          <img src={mainLogo}></img>
+        </Link>
       </div>
       <div className="account-buttons">
-        <div className="login-button">
-          <li>
-            <NavLink className="navbar-login" to="/login">
-              Login
-            </NavLink>
+        <div>
+          <li className="generic-button">
+            <Link className="navbar-login" to="/login">
+              <body className="login-button">Login</body>
+            </Link>
           </li>
         </div>
-        <div className="sign-up-button">
-          <li>
-            <NavLink className="navbar-sign-up" to="/sign-up">
-              Sign Up
-            </NavLink>
+        <div>
+          <li className="generic-button">
+            <Link className="navbar-sign-up" to="/sign-up">
+              <body className="sign-up-button">Sign Up</body>
+            </Link>
           </li>
         </div>
       </div>
