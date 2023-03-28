@@ -2,7 +2,13 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Comfortaa";
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa-Light"),
+    url("./Fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
 }
 
 .app-container {
@@ -11,13 +17,15 @@
 }
 
 .background-image {
-  text-align: center;
   background-image: url(./Components/Images/entrack_background_1.png);
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   min-width: 100%;
   min-height: auto;
   background-size: cover;
   background-position: center;
+  justify-content: center;
+  display: inline-flex;
 }
 
 .line-separator {

@@ -1,11 +1,13 @@
 .tickets-container {
     width: auto;
     height: auto;
-    min-height: 400px;
+    min-height: 500px;
     align-items: center;
     border-radius: 15px;
-    margin: 25px;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     display: inline-block;
     background-image: linear-gradient(#14273e , #1f3a5c);
@@ -16,7 +18,7 @@
 }
 
 .tickets-text-center {
-    color: #2d588d;
+    color: whitesmoke;
     text-align: center;
 }
 
