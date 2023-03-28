@@ -1,7 +1,6 @@
 import './Tickets.css';
 import React, { useState, useEffect } from 'react';
 import SearchBar from '../../Components/SearchBar/SearchBar';
-import DatePicker from '../../Components/DatePicker/DatePickerComp';
 import DatePickerComp from '../../Components/DatePicker/DatePickerComp';
 
 export default function Tickets() {
