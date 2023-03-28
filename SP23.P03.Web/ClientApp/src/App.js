@@ -17,6 +17,7 @@ import Footer from './Components/Footer/Footer.js';
 
 function App() {
   return (
+    <body>
     <div className="app-container">
       <body className="app-body">
         <Banner />
@@ -40,6 +41,7 @@ function App() {
         <Footer />
       </body>
     </div>
+    </body>
   );
 }
 

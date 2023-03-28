@@ -51,7 +51,7 @@ function SearchBar({ placeholder, data }) {
 
                 <div className="searchIcon">
                     
-                    {!inputData.length === 0 ? (
+                    {inputData.length === 0 ? (
                         <SearchIcon />
                     ) : (
                         <CloseIcon id="clearBtn" onClick={clearInput} />

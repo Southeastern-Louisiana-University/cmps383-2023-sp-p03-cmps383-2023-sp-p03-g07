@@ -53,7 +53,7 @@ public class StationsController : ControllerBase
         {
             Name = dto.Name,
             Address = dto.Address,
-            ManagerId = dto.ManagerId,
+            ManagerId = dto.ManagerId
         };
         stations.Add(station);
 

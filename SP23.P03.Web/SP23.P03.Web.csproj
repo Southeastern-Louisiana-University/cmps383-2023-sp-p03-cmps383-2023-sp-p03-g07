@@ -30,6 +30,10 @@
 
   <ItemGroup>
     <None Remove="ClientApp\package-lock.json" />
+    <None Remove="Features\Tickets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\Tickets\" />
   </ItemGroup>
   <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
     <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
