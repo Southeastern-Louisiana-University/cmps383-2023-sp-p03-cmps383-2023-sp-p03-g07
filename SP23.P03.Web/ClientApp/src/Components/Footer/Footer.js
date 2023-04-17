@@ -37,6 +37,14 @@ function Footer() {
                                 <li><Link className="links" to="/sign-up">Sign Up</Link></li>
                             </div>
                         </div>
+                        <div className="important-links">
+                            <h4 className="important-links-header">
+                                Add Payment Method:
+                            </h4>
+                            <div className="link-list">
+                                <li><Link className="links" to="/payments">Payments</Link></li>
+                            </div>
+                        </div>
                     </div>
                     <div className="store-icons">
                         <img src={StoreIcons} alt="App store icons" />
