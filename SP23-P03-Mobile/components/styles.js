@@ -4,11 +4,13 @@ import Constants from "expo-constants";
 
 const StatusBarHeight = Constants.statusBarHeight;
 
-export const Colors = {
-  primary: "#ffffff",
-  secondary: "14273e",
-  tertiary: "f4d465",
+const Colors = {
+  primary: '#ffffff',
+  secondary: '#14273e',
+  tertiary: '#f4d465',
+  dark: '#000',
 };
+export default Colors; 
 
 const { primary, secondary, tertiary } = Colors;
 
