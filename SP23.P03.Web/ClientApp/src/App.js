@@ -23,6 +23,7 @@ import Schedule from './Pages/Schedule/Schedule.js';
 import Tickets from './Pages/Tickets/Tickets.js';
 import Login from './Pages/Account/Login/Login.js';
 import SignUp from './Pages/Account/Sign Up/SignUp.js';
+import Payments from './Pages/Payments/Payments.js';
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
               <Route path="/rewards" element={<Rewards />} />
               <Route path="/login" element={<Login />} />
               <Route path="/sign-up" element={<SignUp />} />
+              <Route path="/payments" element={<Payments />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
