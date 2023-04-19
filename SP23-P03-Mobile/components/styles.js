@@ -9,6 +9,7 @@ const Colors = {
   secondary: '#14273e',
   tertiary: '#f4d465',
   dark: '#000',
+  light: '#D3D3D3'
 };
 export default Colors; 
 
