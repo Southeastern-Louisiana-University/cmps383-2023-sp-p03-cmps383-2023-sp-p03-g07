@@ -2,6 +2,7 @@ import './Tickets.css';
 import React, { useState, useEffect } from 'react';
 import SearchBar from '../../Components/SearchBar/SearchBar';
 import DatePickerComp from '../../Components/DatePicker/DatePickerComp';
+import StationMap from '../../Components/Images/station_map.png';
 
 export default function Tickets() {
 
@@ -23,6 +24,9 @@ export default function Tickets() {
                 </h1>
                 <body className="tickets-body-content">
                     <div className="get-tickets">
+                        <div className="station-map-container">
+                            <img className="station-map" src={StationMap} alt="Station Map" />
+                        </div>
                         <div className="searchbar-container">
                             <SearchBar placeholder="Destination" data={stations} />
                             <SearchBar placeholder="Departing From" data={stations} />
