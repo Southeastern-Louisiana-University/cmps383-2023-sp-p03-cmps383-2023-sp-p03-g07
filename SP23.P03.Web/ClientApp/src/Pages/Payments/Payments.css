@@ -266,3 +266,7 @@
     justify-content: center;
     display: inline-block;
 }
+
+.paypal-text:hover {
+    background-color: #14273e;
+}

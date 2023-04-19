@@ -23,18 +23,28 @@ export default function Tickets() {
                 </h1>
                 <body className="tickets-body-content">
                     <div className="get-tickets">
-                    <SearchBar placeholder="From" data={stations}/>
-                    <SearchBar placeholder="To" data={stations}/> 
-                    <DatePickerComp/>
-                    <DatePickerComp/>
-                    <button>Find</button>
-
-
-                                            {/* <div>{!stations ? null : stations.map(result =>{
-                                                return( <p>{result.name}</p>)
-                                            })}
-                                            </div>
-                                            <input></input> */}
+                        <div className="searchbar-container">
+                            <SearchBar placeholder="Destination" data={stations} />
+                            <SearchBar placeholder="Departing From" data={stations} />
+                        </div>
+                        <div className="dates-title-container">
+                            <body className="start-date-title">Start Date:</body>
+                            <body className="end-date-title">End Date:</body>
+                        </div>
+                        <div className="dates-container">
+                            <div className="dates-separator-left"><DatePickerComp/></div>
+                            <div className="dates-separator-right"><DatePickerComp/></div>
+                        </div>
+                        <div className="find-button-container">
+                            <button className="find-button">Find</button>
+                        </div>
+                        {/* 
+                        <div>{!stations ? null : stations.map(result =>{
+                            return( <p>{result.name}</p>)
+                        })}
+                        </div>
+                        <input></input> 
+                        */}
                     </div>
                 </body>
             </div>

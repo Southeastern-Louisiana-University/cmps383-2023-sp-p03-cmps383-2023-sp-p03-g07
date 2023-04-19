@@ -82,9 +82,9 @@
 }
 
 .footer-bottom {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
     justify-content: space-between;
     display: flex;
     font-size: small;
@@ -94,31 +94,17 @@
     width: 100%;
 }
 
-.legal {
+.footer-legal {
     text-align: left;
+    float: left;
 }
 
-.address {
+.footer-address {
     text-align: right;
+    float: right;
 }
 
-.dev-tool {
-    list-style-type: none;
-}
-
-.dev {
-    list-style-type: none;
-    text-align: center;
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.dev:hover {
-    color: #fcd34d;
-    transition-duration: 1s;
-}
-
-.store-icons {
+.app-store-icons {
     margin: auto;
     margin-left: 30px;
     width: 175px;

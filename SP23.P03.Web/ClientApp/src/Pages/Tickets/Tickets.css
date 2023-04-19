@@ -31,6 +31,51 @@
     align-items: center;
 }
 
-.tickets-paragraph {
-    margin-top: 25px;
+.get-tickets {
+    min-height: 250px;
+}
+
+.dates-title-container {
+    display: flex;
+    width: 100%;
+}
+
+.start-date-title, .end-date-title {
+    width: 50%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.dates-container {
+    display: flex;
+    width: 100%;
+}
+
+.dates-separator-left {
+    margin-right: 2.5%;
+}
+
+.dates-separator-right {
+    margin-left: 2.5%;
+}
+
+.find-button-container {
+    padding: 10px;
+}
+
+.find-button {
+    margin: 10px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    font-size: 15px;
+}
+
+.find-button:hover {
+    background-color: #14273e;
 }

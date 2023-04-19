@@ -38,26 +38,24 @@ function SearchBar({ placeholder, data }) {
 
     /* Notes for later, need to edit search icons below */
     return (
-        <div className="search">
-            <div className="SearchInputs">
+        <div className="searchbar-function-container">
+            <div className="input-container">
                 <input
-                 type="text" 
-                 value={inputData}
-                 placeholder={placeholder} 
-                 onChange={handleFilter} 
+                    className="input-bar"
+                    type="text" 
+                    value={inputData}
+                    placeholder={placeholder} 
+                    onChange={handleFilter} 
                 />
-
                 <div className="searchIcon">
                     
                     {inputData.length === 0 ? (
                         <div>Open</div>
                     ) : (
-                        <div id="clearBtn" onClick={clearInput}>Close</div>
+                        <div id="clearBtn" onClick={clearInput}>X</div>
                     )}
 
                 </div>
-
-
             </div>
 
 
