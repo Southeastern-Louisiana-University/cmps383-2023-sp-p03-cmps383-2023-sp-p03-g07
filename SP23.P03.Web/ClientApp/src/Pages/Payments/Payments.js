@@ -22,7 +22,7 @@ function Payments() {
                                     name="carholder-firstname"
                                     className="cardholder-firstname-input"
                                     type="text"
-                                    placeholder="Firstname"
+                                    placeholder="Cardholder's Firstname"
                                 />
                             </div>
                             <div className="cardholder-lastname">
@@ -30,7 +30,7 @@ function Payments() {
                                     name="carholder-lastname"
                                     className="cardholder-lastname-input"
                                     type="text"
-                                    placeholder="Lastname"
+                                    placeholder="Cardholder's Lastname"
                                 />
                             </div>
                         </div>
@@ -39,12 +39,12 @@ function Payments() {
                                     name="cardnumber"
                                     className="cardnumber-input"
                                     type="text"
-                                    placeholder="0000 0000 0000 0000"
+                                    placeholder="Card Number Ex. 0000 0000 0000 0000"
                                 />
                             </div>
                         <div className="cardnumber-info-container">
                             <select className="expiration-input">
-                                <option>---Select Month---</option>
+                                <option>---Expiration Month---</option>
                                 <option value="01">January</option>
                                 <option value="02">February</option>
                                 <option value="03">March</option>
@@ -59,7 +59,7 @@ function Payments() {
                                 <option value="12">December</option>
                             </select>
                             <select className="expiration-input"> 
-                                <option>---Select Year---</option>
+                                <option>---Expiration Year---</option>
                                 <option value="2023">2023</option>
                                 <option value="2024">2024</option>
                                 <option value="2025">2025</option>

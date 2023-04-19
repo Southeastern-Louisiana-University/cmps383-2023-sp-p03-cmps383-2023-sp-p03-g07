@@ -14,7 +14,7 @@ function Navbar() {
                     <li><NavLink className="nav-link" to="/tickets">Tickets</NavLink></li>
                 </div>
                 <div className="nav-items">
-                    <li><NavLink className="nav-link" to="/schedule">Schedule</NavLink></li>
+                    <li><NavLink className="nav-link" to="/payments">Payments</NavLink></li>
                 </div>
                 <div className="nav-items">
                     <li><NavLink className="nav-link" to="/rewards">Rewards</NavLink></li>
