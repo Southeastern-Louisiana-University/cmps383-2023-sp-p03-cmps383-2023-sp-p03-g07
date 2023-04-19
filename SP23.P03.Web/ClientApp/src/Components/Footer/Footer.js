@@ -38,14 +38,14 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="store-icons">
+                    <div className="app-store-icons">
                         <img src={StoreIcons} alt="App store icons" />
                     </div>
                 </div>
             </div>
             <div className="footer-bottom">
-                <div className="legal">© 2023 EnTrack</div>
-                <div className="address">123 EnTrack Ave, Hammond, LA 70402</div>
+                <div className="footer-legal">© 2023 EnTrack</div>
+                <div className="footer-address">123 EnTrack Ave, Hammond, LA 70402</div>
             </div>
         </body>
     </div>

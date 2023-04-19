@@ -1,0 +1,272 @@
+.pay-header {
+    color: whitesmoke;
+}
+
+.pay-form {
+    max-width: 1000px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pay-body {
+    width: auto;
+    height: auto;
+    align-items: center;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: inline-block;
+    background-image: linear-gradient(#14273e , #1f3a5c);
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.payment-methods-icon {
+    margin-top: 15px;
+}
+
+.pay-icon {
+    width: 350px;
+}
+
+.cardnumber-input {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 100%;
+    text-align: left;
+}
+
+.cardnumber-info-container {
+    display: inline-block;
+}
+
+.expiration-input {
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 35%;
+    text-align: left;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+
+.cvv-input {
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 20%;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.cardholder-firstname {
+    color: whitesmoke;
+    font-size: 15px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 5%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cardholder-lastname {
+    color: whitesmoke;
+    font-size: 15px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 45%;
+    margin-left: auto;
+    margin-left: 5%;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.cardholder-firstname-input, .cardholder-lastname-input {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 100%;
+    text-align: left;
+}
+
+.address {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 65%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.zipcode {
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #2d588d;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    background: rgba(245, 245, 245, 0.0);
+    width: 30%;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.Submit {
+    margin-top: 30px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    font-size: 15px;
+}
+
+.Submit:hover {
+    background-color: #14273e;
+}
+
+.other-content {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.divider {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    font-weight: bolder;
+    color: #2d588d;
+    padding-top: 5px;
+}
+
+.or-divider {
+    width: 115px;
+    height: 2px;
+    background-color: #2d588d;
+    margin: 10px;
+}
+
+.billing-addr-divider-left {
+    width: 34%;
+    height: 3px;
+    background-color: #2d588d;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.billing-addr-divider-right {
+    width: 38%;
+    height: 3px;
+    background-color: #2d588d;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.billing-divider {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    font-weight: bolder;
+    color: #2d588d;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.billing-text {
+    color: whitesmoke;
+}
+
+.paypal-button {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    justify-content: center;
+}
+
+.paypal-text {
+    margin: 10px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.paypal-text:hover {
+    background-color: #14273e;
+}

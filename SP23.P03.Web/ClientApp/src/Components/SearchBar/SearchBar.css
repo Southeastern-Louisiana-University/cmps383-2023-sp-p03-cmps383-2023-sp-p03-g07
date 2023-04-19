@@ -1,80 +1,78 @@
-.get-tickets {
-    margin-top: 105px;
-    display: flex;
-  }
+.input-container {
+  width: 100%;
+  display: flex;
+}
 
+.input-bar {
+  color: whitesmoke;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #2d588d;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 3px;
+  background: rgba(245, 245, 245, 0.0);
+  width: 75%;
+  text-align: left;
+}
 
+.searchIcon {
+  margin: 10px;
+  background-color:#2d588d;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #2d588d;
+  border-width: 3px;
+  font-size: 15px;
+}
 
-.searchInputs {
-    margin-top: 105px;
-    display: flex;
-  }
-  
-  .search input {
-    background-color: white;
-    border: 0;
-    border-radius: 2px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    font-size: 18px;
-    padding: 15px;
-    height: 30px;
-    width: 300px;
-  }
-  
-  .searchIcon {
-    height: 60px;
-    width: 50px;
-    background-color: white;
-    display: grid;
-    place-items: center;
-  }
-  
-  input:focus {
-    outline: none;
-  }
-  .searchIcon svg {
-    font-size: 35px;
-  }
-  
-  .dataResult {
-    margin-top: 5px;
-    width: 300px;
-    height: 200px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-  
-  .dataResult::-webkit-scrollbar {
-    display: none;
-  }
+.searchIcon:hover {
+  background-color: #14273e;
+}
 
-  .dataResult p:hover{
-    background-color: lightgrey;
-  }
+input:focus {
+  outline: none;
+}
   
-  .dataResult .dataItem {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    color: black;
-  }
+.dataResult {
+  margin-top: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
   
-  .dataItem p {
-    margin-left: 10px;
-  }
-  a {
-    text-decoration: none;
-  }
-  
-  /*a:hover {
-    background-color: lightgrey;
-  } */
-  
-  #clearBtn {
-    cursor: pointer;
-  }
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
 
+.dataResult p:hover{
+  background-color: lightgrey;
+}
+  
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+  
+.dataItem p {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+  
+#clearBtn {
+  cursor: pointer;
+}

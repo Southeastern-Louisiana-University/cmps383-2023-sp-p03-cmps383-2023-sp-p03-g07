@@ -2,6 +2,7 @@ import './Tickets.css';
 import React, { useState, useEffect } from 'react';
 import SearchBar from '../../Components/SearchBar/SearchBar';
 import DatePickerComp from '../../Components/DatePicker/DatePickerComp';
+import StationMap from '../../Components/Images/station_map.png';
 
 export default function Tickets() {
 
@@ -23,18 +24,31 @@ export default function Tickets() {
                 </h1>
                 <body className="tickets-body-content">
                     <div className="get-tickets">
-                    <SearchBar placeholder="From" data={stations}/>
-                    <SearchBar placeholder="To" data={stations}/> 
-                    <DatePickerComp/>
-                    <DatePickerComp/>
-                    <button>Find</button>
-
-
-                                            {/* <div>{!stations ? null : stations.map(result =>{
-                                                return( <p>{result.name}</p>)
-                                            })}
-                                            </div>
-                                            <input></input> */}
+                        <div className="station-map-container">
+                            <img className="station-map" src={StationMap} alt="Station Map" />
+                        </div>
+                        <div className="searchbar-container">
+                            <SearchBar placeholder="Destination" data={stations} />
+                            <SearchBar placeholder="Departing From" data={stations} />
+                        </div>
+                        <div className="dates-title-container">
+                            <body className="start-date-title">Start Date:</body>
+                            <body className="end-date-title">End Date:</body>
+                        </div>
+                        <div className="dates-container">
+                            <div className="dates-separator-left"><DatePickerComp/></div>
+                            <div className="dates-separator-right"><DatePickerComp/></div>
+                        </div>
+                        <div className="find-button-container">
+                            <button className="find-button">Find</button>
+                        </div>
+                        {/* 
+                        <div>{!stations ? null : stations.map(result =>{
+                            return( <p>{result.name}</p>)
+                        })}
+                        </div>
+                        <input></input> 
+                        */}
                     </div>
                 </body>
             </div>
