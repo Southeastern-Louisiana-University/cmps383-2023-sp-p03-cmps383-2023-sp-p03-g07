@@ -247,7 +247,7 @@ namespace SP23.P03.Web.Migrations
 
                     b.HasIndex("ManagerId");
 
-                    b.ToTable("TrainStation", (string)null);
+                    b.ToTable("TrainStation");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
