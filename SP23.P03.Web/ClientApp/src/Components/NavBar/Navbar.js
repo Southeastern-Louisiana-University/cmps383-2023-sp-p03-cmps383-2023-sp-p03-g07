@@ -11,13 +11,13 @@ function Navbar() {
                     <li><NavLink className="nav-link" exact to="/">Home</NavLink></li>
                 </div>
                 <div className="nav-items">
-                    <li><NavLink className="nav-link" to="/tickets">Tickets</NavLink></li>
+                    <li><NavLink className="nav-link" to="/tickets">Buy Tickets</NavLink></li>
+                </div>
+                <div className="nav-items">
+                    <li><NavLink className="nav-link" to="/ticket-list">Ticket List</NavLink></li>
                 </div>
                 <div className="nav-items">
                     <li><NavLink className="nav-link" to="/payments">Payments</NavLink></li>
-                </div>
-                <div className="nav-items">
-                    <li><NavLink className="nav-link" to="/rewards">Rewards</NavLink></li>
                 </div>
             </div>
         </nav>
