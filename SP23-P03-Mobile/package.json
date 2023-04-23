@@ -3,20 +3,32 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "set EXPO_PACKAGER_PROXY_URL=http://dc86-147-174-75-26.ngrok.io && expo start",
+    "start": "set EXPO_PACKAGER_PROXY_URL=http://0013-147-174-75-101.ngrok.io && expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^1.0.0",
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-masked-view/masked-view": "^0.2.8",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@react-navigation/stack": "^6.3.16",
+    "expo": "^48.0.0",
+    "expo-image": "~1.0.0",
     "expo-status-bar": "~1.4.4",
+    "formik": "^2.2.9",
     "react": "18.2.0",
     "react-native": "0.71.4",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-safe-area-context": "^4.5.0",
+    "react-native-screens": "~3.20.0",
+    "react-native-vector-icons": "^9.2.0",
     "styled-components": "^5.3.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.20.0",
+    "metro-react-native-babel-preset": "^0.76.2"
   },
   "private": true
 }

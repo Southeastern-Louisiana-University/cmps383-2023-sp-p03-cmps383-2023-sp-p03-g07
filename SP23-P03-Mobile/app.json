@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "SP23-P03-Mobile-g07",
+    "name": "EnTrack",
     "slug": "SP23-P03-Mobile-g07",
     "owner": "envoc_infrastructure",
     "version": "1.0.0",
@@ -9,8 +9,8 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#14273e"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -28,6 +28,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f310d334-170a-481a-8fb5-29a8bfed7aec"
+      }
     }
   }
 }

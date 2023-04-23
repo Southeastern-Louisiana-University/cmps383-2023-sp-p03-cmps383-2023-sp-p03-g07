@@ -21,9 +21,9 @@ function Introduction() {
         </body>
       </div>}
       <div className="intro-sign-up">
-        <Link to="/sign-up">
+        <Link to="/tickets">
           <body className="intro-sign-up-button">
-            New Here? Sign Up!
+            Buy Tickets
           </body>
         </Link>
       </div>

@@ -31,6 +31,58 @@
     align-items: center;
 }
 
-.tickets-paragraph {
-    margin-top: 25px;
+.get-tickets {
+    min-height: 250px;
+}
+
+.station-map-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.station-map {
+    width: 425px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dates-title-container {
+    width: 100%;
+}
+
+.start-date-title, .end-date-title {
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.dates-container {
+    display: flex;
+    width: 100%;
+}
+
+.dates-separator {
+    margin: auto;
+}
+
+.find-button-container {
+    padding: 10px;
+}
+
+.find-button {
+    margin: 10px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #2d588d;
+    border-width: 3px;
+    width: 275px;
+    font-size: 15px;
+}
+
+.find-button:hover {
+    background-color: #14273e;
 }

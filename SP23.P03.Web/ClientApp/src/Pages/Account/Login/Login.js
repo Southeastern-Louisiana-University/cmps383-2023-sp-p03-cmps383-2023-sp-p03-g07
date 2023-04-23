@@ -60,9 +60,9 @@ function Login() {
                         </div>
                         <div className="button-sign-up">
                             <Link to="/sign-up">
-                            <button className="Sign-Up">
-                                Sign Up
-                            </button>
+                                <button className="Sign-Up">
+                                    Sign Up
+                                </button>
                             </Link>
                         </div>
                     </form>
