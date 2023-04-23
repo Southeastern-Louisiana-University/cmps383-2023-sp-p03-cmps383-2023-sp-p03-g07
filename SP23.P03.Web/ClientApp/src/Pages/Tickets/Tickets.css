@@ -48,12 +48,11 @@
 }
 
 .dates-title-container {
-    display: flex;
     width: 100%;
 }
 
 .start-date-title, .end-date-title {
-    width: 50%;
+    width: 100%;
     text-align: center;
     color: whitesmoke;
     font-size: 20px;
@@ -64,12 +63,8 @@
     width: 100%;
 }
 
-.dates-separator-left {
-    margin-right: 2.5%;
-}
-
-.dates-separator-right {
-    margin-left: 2.5%;
+.dates-separator {
+    margin: auto;
 }
 
 .find-button-container {

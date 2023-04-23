@@ -1,5 +1,6 @@
 import './Tickets.css';
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import SearchBar from '../../Components/SearchBar/SearchBar';
 import DatePickerComp from '../../Components/DatePicker/DatePickerComp';
 import StationMap from '../../Components/Images/station_map.png';
@@ -20,7 +21,7 @@ export default function Tickets() {
         <main>
             <div className="tickets-container">
                 <h1 className="tickets-text-center">
-                    Tickets
+                    Search for Tickets
                 </h1>
                 <body className="tickets-body-content">
                     <div className="get-tickets">
@@ -28,19 +29,19 @@ export default function Tickets() {
                             <img className="station-map" src={StationMap} alt="Station Map" />
                         </div>
                         <div className="searchbar-container">
-                            <SearchBar placeholder="Destination" data={stations} />
                             <SearchBar placeholder="Departing From" data={stations} />
+                            <SearchBar placeholder="Destination" data={stations} />
                         </div>
                         <div className="dates-title-container">
-                            <body className="start-date-title">Start Date:</body>
-                            <body className="end-date-title">End Date:</body>
+                            <body className="start-date-title">Date:</body>
                         </div>
                         <div className="dates-container">
-                            <div className="dates-separator-left"><DatePickerComp/></div>
-                            <div className="dates-separator-right"><DatePickerComp/></div>
+                            <div className="dates-separator"><DatePickerComp/></div>
                         </div>
                         <div className="find-button-container">
-                            <button className="find-button">Find</button>
+                            <Link to="/ticket-list">
+                                <button className="find-button">Find Tickets</button>
+                            </Link>
                         </div>
                         {/* 
                         <div>{!stations ? null : stations.map(result =>{

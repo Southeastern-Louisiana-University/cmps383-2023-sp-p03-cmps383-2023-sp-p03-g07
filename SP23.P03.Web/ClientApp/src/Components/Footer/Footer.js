@@ -30,9 +30,9 @@ function Footer() {
                             </h4>
                             <div className="link-list">
                                 <li><Link className="links" to="/">Home</Link></li>
-                                <li><Link className="links" to="/tickets">Tickets</Link></li>
-                                <li><Link className="links" to="/schedule">Schedule</Link></li>
-                                <li><Link className="links" to="/rewards">Rewards</Link></li>
+                                <li><Link className="links" to="/tickets">Buy Tickets</Link></li>
+                                <li><Link className="links" to="/ticket-list">Ticket List</Link></li>
+                                <li><Link className="links" to="/payments">Payments</Link></li>
                                 <li><Link className="links" to="/login">Login</Link></li>
                                 <li><Link className="links" to="/sign-up">Sign Up</Link></li>
                             </div>
