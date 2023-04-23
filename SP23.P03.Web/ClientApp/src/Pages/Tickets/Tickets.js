@@ -36,7 +36,7 @@ export default function Tickets() {
                             <body className="start-date-title">Date:</body>
                         </div>
                         <div className="dates-container">
-                            <div className="dates-separator-left"><DatePickerComp/></div>
+                            <div className="dates-separator"><DatePickerComp/></div>
                         </div>
                         <div className="find-button-container">
                             <Link to="/ticket-list">
