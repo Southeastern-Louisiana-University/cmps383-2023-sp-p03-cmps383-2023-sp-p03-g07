@@ -12,8 +12,8 @@ using SP23.P03.Web.Data;
 namespace SP23.P03.Web.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230423213311_Initial")]
-    partial class Initial
+    [Migration("20230131160814_AddingManagerId")]
+    partial class AddingManagerId
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
