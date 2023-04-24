@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SP23.P03.Web.Data;
 
@@ -11,9 +12,11 @@ using SP23.P03.Web.Data;
 namespace SP23.P03.Web.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230131151215_AddingAspNetIdentity")]
+    partial class AddingAspNetIdentity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -235,9 +238,6 @@ namespace SP23.P03.Web.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ManagerId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(120)
@@ -245,9 +245,7 @@ namespace SP23.P03.Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ManagerId");
-
-                    b.ToTable("TrainStation", (string)null);
+                    b.ToTable("TrainStation");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -305,15 +303,6 @@ namespace SP23.P03.Web.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("SP23.P03.Web.Features.TrainStations.TrainStation", b =>
-                {
-                    b.HasOne("SP23.P03.Web.Features.Authorization.User", "Manager")
-                        .WithMany("ManageStations")
-                        .HasForeignKey("ManagerId");
-
-                    b.Navigation("Manager");
-                });
-
             modelBuilder.Entity("SP23.P03.Web.Features.Authorization.Role", b =>
                 {
                     b.Navigation("Users");
@@ -321,8 +310,6 @@ namespace SP23.P03.Web.Migrations
 
             modelBuilder.Entity("SP23.P03.Web.Features.Authorization.User", b =>
                 {
-                    b.Navigation("ManageStations");
-
                     b.Navigation("Roles");
                 });
 #pragma warning restore 612, 618
