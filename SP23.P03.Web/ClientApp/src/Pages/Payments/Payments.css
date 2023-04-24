@@ -37,7 +37,7 @@
     align-self: center;
     justify-content: center;
     width: 400px;
-    height: 250px;
+    min-height: 250px;
 }
 
 .paypal-text {
