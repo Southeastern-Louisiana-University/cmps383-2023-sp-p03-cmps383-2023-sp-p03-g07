@@ -61,15 +61,21 @@
     background-color:#2d588d;
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border: none;
+    border: 3px solid;
     border-color: #2d588d;
-    border-width: 3px;
+    border-radius: 45px !important;
     width: 275px;
     font-size: 15px;
 }
 
 .Submit:hover {
-    background-color: #14273e;
+    color: #fcd34d;
+    background-color: #808080 !important;
+    border: 3px solid;
+    border-color: #808080;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .divider {
@@ -94,13 +100,18 @@
     background-color:#2d588d;
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border: 3px solid;
     border-color: #2d588d;
-    border-width: 3px;
+    border-radius: 45px;
     width: 275px;
     font-size: 15px;
 }
 
 .Sign-Up:hover {
-    background-color: #14273e;
+    color: #fcd34d;
+    background-color: #808080 !important;
+    border: 3px solid;
+    border-color: #808080;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
