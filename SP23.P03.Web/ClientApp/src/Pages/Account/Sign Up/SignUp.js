@@ -1,9 +1,17 @@
 import React from 'react'
 import './SignUp.css';
 
+import { motion } from 'framer-motion';
+
 function SignUp() {
     return (
-        <div className="content-box">
+        <motion.div
+            className="content-box"
+            initial={{ scale: 0.75, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 0.1 }}
+        
+        >
             <div className="signup-container">
                 <body className="signup-body">
                     <h1 className="signup-header">
@@ -52,7 +60,7 @@ function SignUp() {
                     </form>
                 </body>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
