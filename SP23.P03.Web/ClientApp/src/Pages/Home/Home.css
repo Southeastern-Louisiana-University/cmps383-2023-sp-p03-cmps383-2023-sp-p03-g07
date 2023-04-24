@@ -1,4 +1,5 @@
 .home-container {
+    min-height: 800px;
     height: auto;
 }
 
@@ -11,6 +12,7 @@
 }
 
 .home-header {
+    margin-top: 100px;
     color: #fcd34d;
     font-size: 90px;
     text-align: center;
