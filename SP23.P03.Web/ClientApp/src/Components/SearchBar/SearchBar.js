@@ -50,9 +50,9 @@ function SearchBar({ placeholder, data }) {
                 <div className="searchIcon">
                     
                     {inputData.length === 0 ? (
-                        <div>Open</div>
+                        <div>Clear</div>
                     ) : (
-                        <div id="clearBtn" onClick={clearInput}>X</div>
+                        <div id="clearBtn" onClick={clearInput}>Clear</div>
                     )}
 
                 </div>

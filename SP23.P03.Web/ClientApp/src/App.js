@@ -26,6 +26,7 @@ import Tickets from './Pages/Tickets/Tickets.js';
 import Login from './Pages/Account/Login/Login.js';
 import SignUp from './Pages/Account/Sign Up/SignUp.js';
 import Payments from './Pages/Payments/Payments.js';
+import Receipt from './Pages/Receipt/Receipt.js';
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
                 <Route path="/tickets" element={<Tickets />} />
                 <Route path="/payments" element={<Payments />} />
                 <Route path="/ticket-list" element={<TicketList />} />
+                <Route path="/receipt" element={<Receipt />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/sign-up" element={<SignUp />} />
                 <Route path="*" element={<Navigate to="/" />} />

@@ -272,3 +272,28 @@
 .paypal-text:hover {
     background-color: #14273e;
 }
+
+.receipt-page-button-container {
+    margin-top: 15px;
+}
+
+.receipt-page-button {
+    margin: 10px;
+    background-color:#2d588d;
+    color: white;
+    padding: 10px;
+    border: 3px solid;
+    border-color: #2d588d;
+    border-radius: 45px;
+    width: 275px;
+    font-size: 15px;
+}
+
+.receipt-page-button:hover {
+    color: #fcd34d;
+    background-color: #808080 !important;
+    border: 3px solid;
+    border-color: #808080;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}

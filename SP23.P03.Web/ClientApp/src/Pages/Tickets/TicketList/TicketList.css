@@ -108,5 +108,7 @@
 }
 
 .ticket-buy-button:hover {
-    background-color: #14273e;
+    color: #fcd34d;
+    background-color: #808080 !important;
+    transition-duration: 0.5s;
 }
