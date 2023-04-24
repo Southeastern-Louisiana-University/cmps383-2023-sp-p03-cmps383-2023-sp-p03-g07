@@ -38,6 +38,7 @@
 .station-map-container {
     margin-top: 15px;
     margin-bottom: 15px;
+    height: 215px;
 }
 
 .station-map {
@@ -90,4 +91,5 @@
     border: 3px solid;
     border-color: #808080;
     transition-duration: 0.5s;
+    cursor: pointer;
 }

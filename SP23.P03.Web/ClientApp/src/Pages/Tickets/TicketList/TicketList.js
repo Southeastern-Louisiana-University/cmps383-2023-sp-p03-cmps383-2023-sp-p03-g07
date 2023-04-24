@@ -2,12 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './TicketList.css';
 
+import { motion } from 'framer-motion';
+
 // Please don't judge me too harshly, I wanted the ticket list to be present for the final presentation.
 // We never did get the backend fully connected with being able to pull that information.
 
 function TicketList() {
     return (
-        <div className="content-box">
+        <motion.div
+            className="content-box"
+            initial={{ x: -50 }}
+            animate={{ x: 0 }}
+            transition={{ delay: 0.2 }}
+        >
             <div className="ticket-list-container">
                 <h1 className="ticket-list-text-center">
                     Select Your Journey
@@ -138,7 +145,7 @@ function TicketList() {
                     </div>
                 </body>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

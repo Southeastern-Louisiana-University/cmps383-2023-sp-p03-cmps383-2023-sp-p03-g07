@@ -2,11 +2,18 @@ import React from 'react'
 import './Login.css';
 import { Link } from 'react-router-dom';
 
+import { motion } from 'framer-motion';
+
 function Login() {
 
     return (
         <div className="content-box">
-            <div className="login-container">
+            <motion.div
+                className="login-container"
+                initial={{ scale: 0.75, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ delay: 0.1 }}
+            >
                 <body className="login-body">
                     <h1 className="login-header">
                         Login
@@ -46,7 +53,7 @@ function Login() {
                         </div>
                     </form>
                 </body>
-            </div>
+            </motion.div>
         </div>
     )
 }

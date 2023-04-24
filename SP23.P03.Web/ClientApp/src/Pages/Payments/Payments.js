@@ -3,6 +3,8 @@ import './Payments.css';
 import PayPal from './PayPal/PayPal.js';
 import { Link } from 'react-router-dom';
 
+import { motion } from 'framer-motion';
+
 function Payments() {
 
     const product = {
@@ -11,7 +13,12 @@ function Payments() {
     };
 
     return (
-        <div className="content-box">
+        <motion.div
+            className="content-box"
+            initial={{ x: -50 }}
+            animate={{ x: 0 }}
+            transition={{ delay: 0.1 }}
+        >
             <div className="pay-container">
                 <body className="pay-body">
                     <h1 className="pay-header">
@@ -27,7 +34,7 @@ function Payments() {
                     </div>
                 </body>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -2,6 +2,8 @@ import React from "react";
 import "./Receipt.css";
 import exampleReceipt from "../../Components/Images/example_ticket-receipt.png";
 
+import { motion } from 'framer-motion';
+
 function Receipt() {
 
     const print = () => {
@@ -14,7 +16,12 @@ function Receipt() {
     }
 
     return (
-        <div className="content-box">
+        <motion.div
+            className="content-box"
+            initial={{ x: -50 }}
+            animate={{ x: 0 }}
+            transition={{ delay: 0.1 }}
+        >
             <div className="receipt-container">
                 <div className="receipt-body">
                     <h1 className="receipt-header">
@@ -31,7 +38,7 @@ function Receipt() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
